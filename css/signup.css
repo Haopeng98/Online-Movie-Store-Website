@@ -1,0 +1,80 @@
+.row {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+}
+
+.column {
+    flex: 50%;
+}
+
+.column input {
+    width: 80%;
+}
+
+#mailList {
+    margin-left: -8.5em;
+    height: 15px;
+}
+
+#cart {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 65%;
+    float: left;
+}
+
+#cartList {
+    list-style-type: none;
+}
+
+#MovieInfo {
+    list-style-type: none;
+    padding: 1.5em;
+    margin-left: -1em;
+}
+
+#Movieinfo li {
+    margin-top: -0.5em;
+}
+
+#delButton {
+    padding: 2em;
+    margin-bottom: 5.5em;
+}
+
+#orderSum {
+    float: center;
+    background-image: url("../img/blue-snow-darker.png");
+    background-size: 150px 150px;
+    background-repeat: repeat;
+    margin-top: 3em;
+}
+
+#orderSum h2 {
+    text-align: center;
+}
+
+#orderSumList {
+    list-style-type: none;
+    margin-bottom: 3em;
+}
+
+#orderSumList li {
+    margin-bottom: 0.7em;
+}
+
+#orderSumList button {
+    margin: 1em -2em 0 3em;
+    padding: auto;
+}
+
+.floatContain {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.columnSearch {
+    height: 300px;
+}

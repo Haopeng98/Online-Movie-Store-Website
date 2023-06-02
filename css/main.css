@@ -1,0 +1,245 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    width: 1100px;
+    margin: auto;
+    background-image: url("../img/background.jpg");
+}
+
+#storeName {
+    float: left;
+}
+
+/*
+#header {
+    border-bottom: 2px solid #096BAE;
+} */
+
+#header .search-container {
+    float: right;
+    overflow: hidden;
+    width: 40%;
+    margin-top: 1.3em;
+    height: 40px;
+}
+
+#header #search {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    width: 85%;
+    height: 100%;
+}
+
+#header .search-container button {
+    padding: 14.7px 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: -.3em;
+    background: #0066ff;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    height: 100%;
+}
+
+#header .search-container button:hover {
+    background: darkgrey;
+}
+
+#navbar {
+    clear: both;
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden; 
+}
+
+#navbar ul li:hover > ul{
+    display: block;
+}
+
+#navbar ul a:hover {
+    font-weight: bold;
+}
+
+#navbar li {
+    float: left;
+    list-style-type: none;
+    width: 10%;
+    padding: 1em;
+    text-align: center;
+}
+
+#navbar li a {  
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    
+    width: 150px;
+    height: 25px;
+    padding: 10px;     
+}
+
+#filters {
+    background-image: url("../img/blue-snow-darker.png");
+    background-size: 150px 150px;
+    background-repeat: repeat;
+    min-width: 40%;
+    height: 600px;
+    flex: 50%;
+}
+
+#filtersList {
+    list-style-type: none;
+}
+
+#filters h4 {
+    margin-left: 2em;
+}
+
+#filtersList li {
+    margin-bottom: 0.5em;
+}
+
+#MovieInfoSearch {
+    list-style-type: none;
+    padding: 1.5em;
+    margin-left: -1em;
+    margin-bottom: 4.5em;
+}
+
+#MovieInfoSearch li {
+    margin-top: -0.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button:focus {
+    outline-style: none;
+}
+
+#backHome {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.banner {
+    display: block;
+    margin: auto;
+    width: 98%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.homeheader {
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-bottom: 1.75em;
+}
+
+#featuredCat {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    background-color: #253D85;
+    margin: -1em 0 1em 1em;
+    display: inline-block;
+    width: 240px;
+    margin-bottom: 2em;
+    margin-left: 1.5em;
+}
+
+div.gallery:hover {
+    border: 1px solid #333300;
+}
+
+div.gallery img {
+    width: 100%;
+    background-color: midnightblue;
+    height: 240px;
+}
+
+div.desc {
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.threeWide {
+    margin-top: 1.5em;
+    top: 50%;
+    -ms-transform: translateX(12.5%);
+    transform: translateX(12.5%);
+}
+
+#blankSpace {
+    margin-top: 4em;
+}
+
+.signup-form {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.signup-form input {
+    /*width: 25%;*/
+    padding: 12px 20px;
+    margin-bottom: 1.5em;
+    box-sizing: border-box;
+}
+
+.signup-form h4 {
+    margin-top: 4em;
+    margin-bottom: -0.5em;
+}
+
+.orderButton {
+    margin-top: 1em;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    left: 6px;
+    top: 8px;
+    background: transparent;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 3px solid #0066ff;
+}
+
+.orderButton:hover {
+    background: grey;
+}
+
+.msg {
+    font-size: 130%;
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.cartItem {
+    height: 250px;
+}

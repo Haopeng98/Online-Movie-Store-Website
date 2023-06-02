@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    height: flex;
+}
+
+.image {
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 30%;
+    float: left;
+    display: table-cell;
+}
+
+.content {
+    padding-top: 2%;
+    width: 50%;
+    float: right;
+    display: table-cell;
+}
+
+.unbold {
+    font-weight: normal;
+}

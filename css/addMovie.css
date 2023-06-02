@@ -1,0 +1,19 @@
+label {
+    float: left;
+    width: 7.1em;
+    text-align: right;
+    margin-right: .5em;
+}
+
+.addMovies {
+    margin: 3em;
+    background-color: #232b2b;
+    width: 51%;
+    padding: 2em;
+}
+
+textarea {
+    height: 10em;
+    width: 20em;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
